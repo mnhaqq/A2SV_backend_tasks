@@ -1,5 +1,3 @@
-using System;
-
 class Palindrome
 {
     static bool CheckPalindrome(string str)
