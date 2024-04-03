@@ -1,0 +1,15 @@
+/home/haqq/Documents/SWE/A2SV_learning_phase/A2SV_backend_tasks/bin/Debug/net8.0/A2SV_backend_tasks
+/home/haqq/Documents/SWE/A2SV_learning_phase/A2SV_backend_tasks/bin/Debug/net8.0/A2SV_backend_tasks.deps.json
+/home/haqq/Documents/SWE/A2SV_learning_phase/A2SV_backend_tasks/bin/Debug/net8.0/A2SV_backend_tasks.runtimeconfig.json
+/home/haqq/Documents/SWE/A2SV_learning_phase/A2SV_backend_tasks/bin/Debug/net8.0/A2SV_backend_tasks.dll
+/home/haqq/Documents/SWE/A2SV_learning_phase/A2SV_backend_tasks/bin/Debug/net8.0/A2SV_backend_tasks.pdb
+/home/haqq/Documents/SWE/A2SV_learning_phase/A2SV_backend_tasks/obj/Debug/net8.0/A2SV_backend_tasks.GeneratedMSBuildEditorConfig.editorconfig
+/home/haqq/Documents/SWE/A2SV_learning_phase/A2SV_backend_tasks/obj/Debug/net8.0/A2SV_backend_tasks.AssemblyInfoInputs.cache
+/home/haqq/Documents/SWE/A2SV_learning_phase/A2SV_backend_tasks/obj/Debug/net8.0/A2SV_backend_tasks.AssemblyInfo.cs
+/home/haqq/Documents/SWE/A2SV_learning_phase/A2SV_backend_tasks/obj/Debug/net8.0/A2SV_backend_tasks.csproj.CoreCompileInputs.cache
+/home/haqq/Documents/SWE/A2SV_learning_phase/A2SV_backend_tasks/obj/Debug/net8.0/A2SV_backend_tasks.sourcelink.json
+/home/haqq/Documents/SWE/A2SV_learning_phase/A2SV_backend_tasks/obj/Debug/net8.0/A2SV_backend_tasks.dll
+/home/haqq/Documents/SWE/A2SV_learning_phase/A2SV_backend_tasks/obj/Debug/net8.0/refint/A2SV_backend_tasks.dll
+/home/haqq/Documents/SWE/A2SV_learning_phase/A2SV_backend_tasks/obj/Debug/net8.0/A2SV_backend_tasks.pdb
+/home/haqq/Documents/SWE/A2SV_learning_phase/A2SV_backend_tasks/obj/Debug/net8.0/A2SV_backend_tasks.genruntimeconfig.cache
+/home/haqq/Documents/SWE/A2SV_learning_phase/A2SV_backend_tasks/obj/Debug/net8.0/ref/A2SV_backend_tasks.dll
