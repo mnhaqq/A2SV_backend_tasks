@@ -1,4 +1,4 @@
-// Tests are in Program.cs in the DayTwo() function
+// Tests are in Program.cs
 
 class Shape
 {

@@ -1,3 +1,4 @@
+// Tests are in Program.cs
 class Library
 {
     string Name {get; set;}
@@ -52,11 +53,11 @@ class Library
 
 class Book
 {
-    public string Title {get; set;}
+    public string Title {get;}
     
-    public string Author {get; set;}
-    public string ISBN {get; set;}
-    public int PublicationYear {get; set;}
+    public string Author {get;}
+    public string ISBN {get;}
+    public int PublicationYear {get;}
 
     public Book(string title, string author, string isbn, int publicationYear)
     {
@@ -69,9 +70,9 @@ class Book
 
 class MediaItem
 {
-    public string Title {get; set;}
-    public string MediaType {get; set;}
-    public int Duration {get; set;}
+    public string Title {get;}
+    public string MediaType {get;}
+    public int Duration {get;}
 
     public MediaItem(string title, string mediaType, int duration)
     {
