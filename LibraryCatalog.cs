@@ -36,7 +36,6 @@ class Library
 
     public void PrintCatalog()
     {
-        Console.WriteLine();
         Console.WriteLine("The books in the library are: ");
         foreach (var book in Books)
         {

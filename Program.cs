@@ -16,13 +16,14 @@ class MainClass
         PrintShapeArea(triangle);
 
         // Library Catalog
+        Console.WriteLine(); 
         Console.WriteLine("Library Catalog");
         List<Book> books = new List<Book>();
         List<MediaItem> medias = new List<MediaItem>();
 
         Book book1 = new Book("Harry Potter", "JK Rowling", "1234", 2000);
-        Book book2 = new Book("Harry Potter", "JK Rowling", "1234", 2000);
-        Book book3 = new Book("Harry Potter", "JK Rowling", "1234", 2000);
+        Book book2 = new Book("Animal Farm", "George Orwell", "8752", 200);
+        Book book3 = new Book("No Way Home", "Mark Rust", "5234", 700);
         books.Add(book1);
         books.Add(book2);
         books.Add(book3);
