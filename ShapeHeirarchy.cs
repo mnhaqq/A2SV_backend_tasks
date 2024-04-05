@@ -1,3 +1,5 @@
+// Tests are in Program.cs in the DayTwo() function
+
 class Shape
 {
     protected string Name {get; set;}
