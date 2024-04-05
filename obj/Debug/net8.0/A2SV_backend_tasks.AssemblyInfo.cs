@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("A2SV_backend_tasks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5529184f77896aeaabf703ac2cbcd8323cba7752")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aba835fbac0e7c4b262b45c21e0e302d9e074a24")]
 [assembly: System.Reflection.AssemblyProductAttribute("A2SV_backend_tasks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("A2SV_backend_tasks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
