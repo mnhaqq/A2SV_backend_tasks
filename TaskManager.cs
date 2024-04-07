@@ -1,4 +1,6 @@
 // Console Implementation in TaskManagerConsole.cs
+// Entry point in Program.cs
+
 enum TaskCategories
 {
     Personal,
@@ -80,7 +82,7 @@ class TaskManager
         description = details[1];
         category = (TaskCategories)int.Parse(details[2]);
         
-        if (details[3] == "true") isCompleted = true;
+        if (details[3].ToLower() == "true") isCompleted = true;
         else isCompleted = false;
         
         NewTask task = new NewTask 

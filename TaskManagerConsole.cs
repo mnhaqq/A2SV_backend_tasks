@@ -41,18 +41,25 @@ class ConsoleApplication
 
         Console.WriteLine("Task Category");
         Console.WriteLine("1. Personal\n2. Work\n3. Kids");
+        Console.Write("Select an option: ");
         string? categoryInput = Console.ReadLine();
         TaskCategories category;
         if (categoryInput != null)
             category = (TaskCategories)(int.Parse(categoryInput) - 1);
         else category = TaskCategories.Personal;
+
+        Console.Write("Have you completed the task (Y/N): ");
+        string? isCompletedInput = Console.ReadLine();
+        bool isCompleted;
+        if (isCompletedInput != null && isCompletedInput.ToLower().Equals("y")) isCompleted = true;
+        else isCompleted = false;
         
         NewTask newTask = new NewTask 
         {
             Name = name,
             Description = description,
             Category = category,
-            IsCompleted = false
+            IsCompleted = isCompleted
         };
 
         taskManager.Tasks.Add(newTask);
