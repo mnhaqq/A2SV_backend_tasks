@@ -2,7 +2,7 @@
 
 class Shape
 {
-    protected string Name {get; set;}
+    string Name {get; set;}
     public Shape(string name)
     {
         this.Name = name;
