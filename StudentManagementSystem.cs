@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 class Student
 {
@@ -6,6 +7,8 @@ class Student
     public string Name {get; set;}
     public int Age {get; set;}
     public double Grade {get; set;}
+    
+    [JsonInclude]
     public readonly int ID;
 
     public Student(string name, int age, double grade)
