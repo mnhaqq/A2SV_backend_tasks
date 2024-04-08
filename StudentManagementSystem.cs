@@ -1,3 +1,6 @@
+// Console Implementation in StudentManagementConsole.cs
+// Entry point in Program.cs
+
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
@@ -50,6 +53,7 @@ class StudentList<T> where T : Student
     public void DisplayStudents(List<T> stds)
     {
         Console.WriteLine("Students\n");
+
         foreach (var student in stds)
         {
             Console.WriteLine(student);
@@ -88,9 +92,11 @@ class StudentList<T> where T : Student
         return searchResult;
     }
 
-    public string SerializeStudents()
+    public void SerializeStudents()
     {
-        return JsonSerializer.Serialize(Students);
+        string jsonString = JsonSerializer.Serialize(Students);
+        string path = "students.json";
+        File.WriteAllText(path, jsonString);
     }
 
     public void Deserialize(string file)

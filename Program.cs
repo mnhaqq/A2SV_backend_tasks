@@ -1,15 +1,19 @@
 ﻿global using System;
-using static Shape;
 
 class MainClass
 {
     static async Task Main()
     {
         // Day 3
+        // Task 1
         ConsoleApplication start = new ConsoleApplication();
         await start.StartConsole();
-
-
+        
+        Thread.Sleep(500);
+        // Task 2
+        StudentManagementConsole studentStart = new StudentManagementConsole();
+        studentStart.StartConsole();
+        
         // // Day 2
         // // Shape Heirarchy
         // Console.WriteLine("Shape Heirarchy");
