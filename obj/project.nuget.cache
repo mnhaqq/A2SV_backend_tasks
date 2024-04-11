@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LTmmrTwSIef3rdCJObwdbSCEXp8aLVJ/1d18toc8laf9ZHesImDs//KRoxqoMpeEcTM+D2wUspwWSV32iALvCA==",
+  "dgSpecHash": "RBBcurECcy+Q+Tmh3XfyFrKyYzZgm6klTj1qb9WTjb9bH9XMvyRVF9XTUI+OGYPOpzqv0QZV/ITtSfOB81JdGw==",
   "success": true,
   "projectFilePath": "/home/haqq/Documents/SWE/A2SV_learning_phase/A2SV_backend_tasks/A2SV_backend_tasks.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/haqq/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
